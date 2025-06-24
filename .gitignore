@@ -1,0 +1,24 @@
+# === Node (backend & frontend) ===
+node_modules/
+package-lock.json
+
+# === Environment Variables ===
+**/.env
+
+# === Logs ===
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === Build Output ===
+frontend/build/
+backend/dist/
+
+# === System/IDE Files ===
+.DS_Store
+.vscode/
+.idea/
+
+# === Coverage/Test Output ===
+coverage/
